@@ -1,0 +1,98 @@
+<head>
+  <title>Sage Berg</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <img style="width:100%" src="images/SageBerg2.jpg">
+
+  <div id="about-sage">
+    Hi, I'm a software dev, hiker, tabletop gamer, cat person, etc.
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 tab tab-selected" id="tab-personal" onclick="toggleTabs('switchToPersonal')">Personal</div>
+      <div class="col-sm-6 tab tab-unselected" id="tab-professional" onclick="toggleTabs('switchToProfessional')">Professional</div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="personal">
+    <h2 class="heading">Life</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="family-picture" src="images/portland.jpg">
+        <p class="caption">I live in the Portland area</p>
+      </div>
+      <div class="col-sm-4">
+        <img class="family-picture" src="images/EricaBerg.jpg">
+        <p class="caption">with my wife, Erica</p>
+      </div>
+      <div class="col-sm-4">
+        <img class="family-picture" src="images/DustyBerg.jpeg">
+        <p class="caption">and our cat Dusty.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="professional">
+    <h2 class="heading">Values</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="caption">Curiosity</p>
+        <ul>
+          <li>
+            Being curious about how software works helps me be effective
+            at work. I enjoy the discovery process, so I persevere.
+          </li>
+          <li>
+            A software engineer is basically a pro learner.
+            It's not my knowledge of code syntax that makes me useful, it's my
+            ability to learn how to deal with any problem thrown my way.<a href="https://en.wikipedia.org/wiki/Halting_problem">*</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <p class="caption">Simplicty</p>
+        <ul>
+          <li>
+            When I write code or make anything that others will see, I focus on
+            making it understandable. I accomplish this by asking for feedback
+            early and often. Something I think is simple might actually be
+            needlessly complicated or tedious.
+          </li>
+        </ul>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <p class="caption">Positivity</p>
+        <ul>
+          <li>
+            I consciously work to improve the mood in my workplace.
+          </li>
+          <li>
+            There are as many things to be excited about as there are to
+            complain about, so there's a lot to be excited about.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h2 class="heading">What I'm Reading</h2>
+    <a href="https://www.amazon.com/Building-Maintainable-Software-Guidelines-Future-Proof/dp/1491954523/ref=sr_1_2?ie=UTF8&qid=1506833530&sr=8-2&keywords=building+maintainable+software">
+      <img class="book-image" src="images/building_maintainable_software.jpg">
+    </a>
+  </div>
+
+  <div id="contact">
+    <p style="display:inherit">sagetheberg@gmail.com</p>
+    <a href="https://www.linkedin.com/in/sageberg/"><img class="account-icon" src="images/linkedin_icon.png"></a>
+    <a href="https://github.com/SageBerg"><img class="account-icon" src="images/github_icon.svg"></a>
+  </div>
+
+</body>

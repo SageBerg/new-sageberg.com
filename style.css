@@ -1,0 +1,111 @@
+li {
+      margin:0 0 20px 0;
+}
+
+.brand-value {
+  background-color: #ddd;
+  border-radius: 50%;
+  color: #dfac48;
+  float: left;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 300%;
+  height: 120px;
+  margin: 20px;
+  text-align: center;
+  width: 120px;
+}
+
+.family-picture {
+  border-radius: 50%;
+  display: inline-block;
+  width: 90%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.account-icon {
+  margin-left: 16px;
+  max-width: 32px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 120%;
+  color: #444;
+}
+
+.core-value {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: red;
+  width: 90%;
+  border-radius: 50%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.book-image {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 20%;
+}
+
+.tab {
+  background-color: #778;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 120%;
+}
+
+.tab-selected {
+  background-color: #99a;
+}
+
+.tab-unselected:hover {
+  background-color: #667;
+}
+
+#about-sage {
+  background-color: #dfac48;
+  color: #fff;
+  font-size: 150%;
+  padding: 20px;
+  width: 100%;
+}
+
+#contact {
+  background-color: #dfac48;
+  color: #fff;
+  display: inline-block;
+  font-size: 150%;
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#core-values {
+  background-color: #778;
+  padding: 20px;
+}
+
+#more-about-me {
+  background-color: #dfac48;
+  color: #FFF;
+  padding: 20px;
+  width: 100%;
+  font-size: 120%
+}
+
+#professional {
+  display: none;
+}

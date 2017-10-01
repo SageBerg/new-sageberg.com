@@ -1,5 +1,5 @@
 li {
-      margin:0 0 20px 0;
+  margin:0 0 20px 0;
 }
 
 .brand-value {
@@ -17,13 +17,13 @@ li {
 
 .family-picture {
   border-radius: 50%;
-  display: inline-block;
-  width: 90%;
-  margin-top: 20px;
   display: block;
+  display: inline-block;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 90%;
 }
 
 .account-icon {
@@ -32,18 +32,18 @@ li {
 }
 
 .caption {
-  text-align: center;
-  font-size: 120%;
   color: #444;
+  font-size: 120%;
+  text-align: center;
 }
 
 .core-value {
+  background-color: red;
+  border-radius: 50%;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  background-color: red;
   width: 90%;
-  border-radius: 50%;
 }
 
 .heading {
@@ -56,15 +56,15 @@ li {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  width: 20%;
+  width: 100%;
 }
 
 .tab {
   background-color: #778;
   color: #fff;
+  font-size: 120%;
   padding: 10px;
   text-align: center;
-  font-size: 120%;
 }
 
 .tab-selected {
@@ -89,8 +89,8 @@ li {
   display: inline-block;
   font-size: 150%;
   padding-top: 10px;
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 #core-values {
@@ -101,9 +101,9 @@ li {
 #more-about-me {
   background-color: #dfac48;
   color: #FFF;
+  font-size: 120%
   padding: 20px;
   width: 100%;
-  font-size: 120%
 }
 
 #professional {
